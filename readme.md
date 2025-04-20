@@ -1,4 +1,4 @@
-# 🎵 Zen Mote Garden 🎵
+# Zen Mote Garden 
 
 An interactive audiovisual experience where sound particles ("motes") respond to your movements, creating a meditative soundscape that evolves as you play. Sonic therapy for your overthinking brain!
 
