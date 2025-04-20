@@ -2,7 +2,7 @@
 
 An interactive audiovisual experience where sound particles ("motes") respond to your movements, creating a meditative soundscape that evolves as you play. Sonic therapy for your overthinking brain!
 
-![Zen Mote Garden Screenshot](https://zen.layogtima.com/screenshot.png)
+[![Zen Mote Garden Screenshot](https://zen.layogtima.com/screenshot.png)](https://zen.layogtima.com/)
 
 ## ✨ Experience It
 
