@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>Zen Mote Garden</title>
+    <meta name="title" content="Zen Mote Garden" />
+    <meta
+      name="author"
+      content="Amartha [Absurd Industries' CAI], Google Gemini 2.5 Preview and Amit [amit@absurd.industries]"
+    />
+    <meta
+      name="description"
+      content="An interactive experience where you play with specks of sound."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zen.layogtima.com/" />
+    <meta property="og:title" content="Zen Mote Garden" />
+    <meta
+      property="og:description"
+      content="An interactive experience where you play with specks of sound."
+    />
+    <meta
+      property="og:image"
+      content="https://zen.layogtima.com/screenshot.png?burssst"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://zen.layogtima.com/" />
+    <meta property="twitter:title" content="Zen Mote Garden" />
+    <meta
+      property="twitter:description"
+      content="An interactive experience where you play with specks of sound."
+    />
+    <meta
+      property="twitter:image"
+      content="https://zen.layogtima.com/screenshot.png?burssst"
+    />
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://zen.layogtima.com/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://zen.layogtima.com/favicon/favicon.svg"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://zen.layogtima.com/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://zen.layogtima.com/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Zen Mote" />
+    <link
+      rel="manifest"
+      href="https://zen.layogtima.com/favicon/site.webmanifest"
+    />
+    <!-- Favicon Generated with https://realfavicongenerator.net/ -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-neutral-950 text-neutral-300">
+    <div id="app" class="h-screen w-screen relative">
+      <canvas ref="canvas" class="absolute top-0 left-0 w-full h-full"></canvas>
+      <div
+        class=""
+        id="audio-prompt"
+        @click="unlockAudio"
+        v-show-prompt="userInteracted"
+      >
+        <h1 class="text-6xl mb-5">Zen Mote Garden</h1>
+        <p>Click/touch to awaken the soundscape!</p>
+      </div>
+    </div>
+    <script src="script.js?vBurst"></script>
+  </body>
+</html>
